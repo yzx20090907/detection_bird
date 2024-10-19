@@ -1,0 +1,50 @@
+# 额外说明：
+# 在使用此项目时，您可能需要编译某些依赖库（如 pickle5），
+# 这要求安装 Microsoft Visual C++ 14.0 或更高版本的编译器。
+# 请确保已安装 Visual Studio Build Tools，并勾选以下组件：
+# - MSVC v143 - VS 2022 C++ x64/x86 生成工具
+# - Windows 10 SDK (10.0.22621.0) 或其他兼容版本
+# - 用于 Windows 的 C++ CMake 工具
+# 这些工具可以从 https://visualstudio.microsoft.com/visual-cpp-build-tools/ 下载。
+
+neptune-client
+lightning
+pandas
+numpy
+Pillow
+matplotlib
+seaborn
+tqdm
+torch
+torchvision
+scikit-learn
+xgboost
+pickle5  # Python < 3.8 时可能需要此库
+
+
+# Neptune and Pytorch Lightning
+neptune-client
+lightning
+
+# Basic Python libraries
+pandas
+numpy
+Pillow  # For importing PIL
+matplotlib
+seaborn
+tqdm
+os-sys  # os is part of Python standard library, no need to install
+
+# PyTorch and PyTorch Lightning
+torch
+pytorch-lightning
+torchvision
+
+# scikit-learn (sklearn) and related dependencies
+scikit-learn
+
+# XGBoost
+xgboost
+
+# Others
+pickle5  # For loading/saving objects in pickle (only needed if you're using Python < 3.8)

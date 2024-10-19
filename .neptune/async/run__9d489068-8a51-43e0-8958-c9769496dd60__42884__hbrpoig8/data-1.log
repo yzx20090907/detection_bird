@@ -1,0 +1,21 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Find-HyperParams CNN_grid_search"}, "version": 1, "at": 1729349863.431619}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1729349863.431619}
+{"obj": {"type": "AssignString", "path": ["monitoring", "0720a442", "hostname"], "value": "\u52c7\u6562\u725b\u725b"}, "version": 3, "at": 1729349863.431619}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "\u52c7\u6562\u725b\u725b"}, "version": 4, "at": 1729349863.431619}
+{"obj": {"type": "AssignString", "path": ["monitoring", "0720a442", "pid"], "value": "42884"}, "version": 5, "at": 1729349863.431619}
+{"obj": {"type": "AssignString", "path": ["monitoring", "0720a442", "tid"], "value": "29780"}, "version": 6, "at": 1729349863.4326193}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["Find-HyperParams CNN_grid_search"]}, "version": 7, "at": 1729349863.4326193}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1729349863.4326193}
+{"obj": {"type": "AssignString", "path": ["source_code", "integrations", "pytorch-lightning"], "value": "2.4.0"}, "version": 9, "at": 1729349864.6156769}
+{"obj": {"type": "AssignInt", "path": ["training", "hyperparams", "num_classes"], "value": 525}, "version": 10, "at": 1729349864.6156769}
+{"obj": {"type": "AssignString", "path": ["training", "hyperparams", "model_name"], "value": "CNN"}, "version": 11, "at": 1729349864.6156769}
+{"obj": {"type": "AssignInt", "path": ["training", "hyperparams", "dropout"], "value": 0}, "version": 12, "at": 1729349864.6156769}
+{"obj": {"type": "AssignString", "path": ["training", "hyperparams", "optimizer_name"], "value": "Adam"}, "version": 13, "at": 1729349864.6156769}
+{"obj": {"type": "AssignFloat", "path": ["training", "hyperparams", "lr"], "value": 0.001}, "version": 14, "at": 1729349864.6156769}
+{"obj": {"type": "AssignFloat", "path": ["training", "hyperparams", "weight_decay"], "value": 0.001}, "version": 15, "at": 1729349864.6156769}
+{"obj": {"type": "AssignInt", "path": ["training", "hyperparams", "model_hparams", "num_classes"], "value": 525}, "version": 16, "at": 1729349864.6429753}
+{"obj": {"type": "AssignString", "path": ["training", "hyperparams", "model_hparams", "model_name"], "value": "CNN"}, "version": 17, "at": 1729349864.6429753}
+{"obj": {"type": "AssignInt", "path": ["training", "hyperparams", "model_hparams", "dropout"], "value": 0}, "version": 18, "at": 1729349864.6429753}
+{"obj": {"type": "AssignString", "path": ["training", "hyperparams", "optimizer_name"], "value": "Adam"}, "version": 19, "at": 1729349864.6439753}
+{"obj": {"type": "AssignFloat", "path": ["training", "hyperparams", "optimizer_hparams", "lr"], "value": 0.001}, "version": 20, "at": 1729349864.6439753}
+{"obj": {"type": "AssignFloat", "path": ["training", "hyperparams", "optimizer_hparams", "weight_decay"], "value": 0.001}, "version": 21, "at": 1729349864.6439753}
